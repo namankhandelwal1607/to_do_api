@@ -4,7 +4,7 @@ import getTasks from '../controllers/getTasks.js';
 const router = express.Router();
 
 router
-.post('/addTask', addTask)
-.get('/getTasks', getTasks)
+    .post('/addTask', addTask)
+    .get('/getTasks', getTasks)
 
 export {router}
