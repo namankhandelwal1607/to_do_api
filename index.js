@@ -20,3 +20,5 @@ main().then(() => {
         console.log('server started at ' + PORT)
     })
 })
+
+export default app;
